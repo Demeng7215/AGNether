@@ -1,0 +1,29 @@
+### CONFIGURATION FILE FOR AGNETHER BY DEMENG7215 ###
+
+# The prefix of the plugin.
+prefix: "&4{AGNether} "
+
+# The name of the "nether" world.
+nether-world: "world_nether"
+
+# This is where you configure the available regions for the player to teleport in.
+corner-1:
+  x: 0
+  y: 60
+  z: 0
+corner-2:
+  x: 10
+  y: 60
+  z: 10
+
+# The material that the player will be standing on when they go in to the nether.
+material: NETHERRACK
+
+# List of commands that will be executed upon ground hit in the nether.
+# You can use the %player% placeholder for the player's name.
+commands:
+  console:
+    - say %player% is cool!
+    - give %player% minecraft:iron 3
+  player:
+    - me has hit the ground!

@@ -1,0 +1,10 @@
+name: AGNether
+version: ${project.version}
+main: ga.demeng7215.agnether.AGNether
+authors: [Demeng7215]
+description: Custom plugin
+website: http://demeng7215.ga/
+
+commands:
+  agnether:
+    description: Main command for AGNether
